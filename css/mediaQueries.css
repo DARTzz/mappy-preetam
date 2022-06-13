@@ -1,0 +1,69 @@
+@media (max-width: 88rem) {
+  .sidebar {
+    width: 40vw;
+  }
+}
+@media (max-width: 80rem) {
+  .sidebar {
+    width: 45vw;
+  }
+}
+@media (max-width: 75rem) {
+  .sidebar {
+    width: 45vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 54rem) {
+  .sidebar {
+    width: 45vw;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 54rem) {
+  .sidebar {
+    width: 50vw;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 46rem) {
+  .main-section {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #map {
+    height: 40vh;
+    width: 100%;
+  }
+  .sidebar {
+    width: 100vw;
+    height: 60vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 28rem) {
+  .sidebar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .workout {
+    gap: 0.5rem 1rem;
+  }
+}
